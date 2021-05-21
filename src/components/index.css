@@ -1,0 +1,17 @@
+h2 {
+  text-align: center;
+}
+
+i {
+  position: absolute;
+  left: -20px;
+}
+
+.iconed-mark {
+  position: relative;
+  list-style-type: none;
+}
+
+.Red-color {
+  color: red;
+}

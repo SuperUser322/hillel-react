@@ -11,18 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-h2 {
-  text-align: center;
-}
-
-i {
-  position: absolute;
-  left: -20px;
-}
-
-.iconed-mark {
-  position: relative;
-
-  list-style-type: none;
-}

@@ -1,7 +1,8 @@
-import './App.css';
 import React from 'react';
-import App1 from './App1';
-import App2 from './App2';
+
+import './App.css';
+import App1 from './components/App1.js';
+import App2 from './components/App2.js';
 import directories from './directories.json';
 
 function App(props) {

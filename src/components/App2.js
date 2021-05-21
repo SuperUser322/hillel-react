@@ -1,5 +1,6 @@
-import './App.css';
 import React from 'react';
+
+import './index.css';
 
 const App2 = ({directories}) => {
   return (

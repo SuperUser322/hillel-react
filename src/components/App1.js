@@ -1,8 +1,10 @@
-import './App.css';
 import React from 'react';
-import news from './news.json';
 
-function App1() {
+import './index.css';
+import news from '../news.json';
+import Categories from './app1-components/Categories';
+
+function App1(props) {
   return (
     <div>
       {news.map(el => (
@@ -13,11 +15,7 @@ function App1() {
             dangerouslySetInnerHTML={{ __html: el.content }} />
           </li>
           <li>{el.dateCreated}</li>
-          <ul>
-            {el.categories.map(item => (
-            <li key={item.id}>{item.name}</li>
-            ))}
-          </ul>
+          <Categories el={el} />
           {el.link && <li><a href={el.link}>{el.link}</a></li>}
           {el.photo && <li><img src={el.photo} alt={el.title}/></li>}
           <li>{el.author}</li>
